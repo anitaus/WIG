@@ -1,0 +1,5 @@
+INSERT INTO `nauczyciele` (`id_nauczyciel`, `email`, `imie`, `nazwisko`, `haslo`, `typ`) VALUES (NULL, 'admin@edziennik.pl', 'Michal', 'Chudy', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'a');
+INSERT INTO `nauczyciele` (`id_nauczyciel`, `email`, `imie`, `nazwisko`, `haslo`, `typ`) VALUES (NULL, 'Andrzej@edziennik.pl', 'Andrzej', 'Gbur', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'a');
+
+INSERT INTO `przedmioty` (`id_przedmiot`, `nazwa`) VALUES (NULL, 'Przedmioty');
+INSERT INTO `przedmioty` (`id_przedmiot`, `nazwa`) VALUES (NULL, 'Zajecia dodatkowe');

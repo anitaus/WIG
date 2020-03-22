@@ -1,0 +1,15 @@
+#cookie-bar {
+	font-family: 'Lato', sans-serif;
+	background: #0e89af;
+	color: #FFFFFF;
+	font-size: 13px;
+	padding:5px;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+	position: fixed;
+	z-index:9999;
+}
+#cookie-bar p {margin:0; text-align: center; }
+.cb-enable{ color: white;}
+#cookie-bar a {text-decoration:none; text-align: center;}

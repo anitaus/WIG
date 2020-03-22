@@ -1,0 +1,125 @@
+.thumbnail { 
+	height:160px;
+    display:block; 
+    position:relative; 
+    overflow:hidden; 
+	border: 0px;
+	border-radius: 0px;
+	line-height: 1.43;
+	margin-bottom: 25px;
+	padding: 0px;
+	background: transparent;
+	-moz-transition:-moz-transform 0.5s ease-in; 
+	-webkit-transition:-webkit-transform 0.5s ease-in; 
+	-o-transition:-o-transform 0.5s ease-in;
+}
+.zoom img { display:none }
+.zoomOverlay {
+	position:absolute;
+    top:0; left:0;
+    bottom:0; right:0;
+    display:none;
+    background-image:url(./img/zoom.png);
+    background-repeat:no-repeat;
+    background-position:center;
+	background-color: rgba(68, 68, 68, 0.7);
+}
+.deleteOverlay {
+	position:absolute;
+    top:0;
+	right:0;
+	width:35%;
+	width:calc(100%/3);
+    bottom:0;
+    display:none;
+    background-image:url(./img/trash.png);
+    background-repeat:no-repeat;
+    background-position:center;
+	background-color: rgba(68, 68, 68, 0.7);
+}
+.pictureOverlay {
+	position:absolute;
+    top:0;
+	left:0;
+	width:33%;
+	width:calc(100%/3);
+    bottom:0;
+	left:0;
+    display:none;
+    background-image:url(./img/picture.png);
+    background-repeat:no-repeat;
+    background-position:center;
+	background-color: rgba(68, 68, 68, 0.7);
+}
+.changeOverlay {
+	position:absolute;
+    top:0;
+	width:33%;
+	width:calc(100%/3);
+	left:33%;
+	left:calc(100%/3);
+	right:0;
+    bottom:0;
+    background-image:url(./img/change.png);
+    background-repeat:no-repeat;
+    background-position:center;
+	background-color: rgba(68, 68, 68, 0.7);
+	display:none;
+}
+.addOverlay {
+	position:absolute;
+    top:0; left:0;
+    bottom:0; right:0;
+    display:none;
+    background-image:url(./img/add.png);
+    background-repeat:no-repeat;
+    background-position:center;
+	display: block;
+	background-color: rgba(68, 68, 68, 0.7);
+}
+.transition{
+	-moz-transform:scale(1.1); 
+	-webkit-transform:scale(1.1);
+	-o-transform:scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

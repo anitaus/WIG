@@ -1,0 +1,248 @@
+ul.sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+ul.sortable li {
+    margin: 0 3px 3px 3px;
+    padding: 0.4em;
+    padding-left: 1.5em;	
+    font-size: 1.4em;
+    height: 18px;
+}
+.checkbox{
+	color:white;
+}
+a.thumbnail {
+	height:160px;
+    overflow:hidden;
+    position:relative;
+}
+div a .input_gallery {
+     z-index: 999;
+     line-height: 0;
+	 height:100%;
+	 width:34%;
+	 width: calc(100%/3);
+     position: absolute;
+     top: -2px;
+	 background-color: red;
+     opacity: 0;
+     filter: alpha(opacity = 0);
+     -ms-filter: "alpha(opacity=0)";
+     cursor: pointer;
+     _cursor: hand;
+     margin: 0;
+     padding:0;
+}
+
+div:active, div:focus,input, input:active, input:focus{  
+	   outline: 0;     
+	   outline-style:none;     
+	   outline-width:0; 
+}  
+label{
+	color: white;
+}
+.fill { 
+    
+    height: 100%;
+}
+
+textarea:focus, input:focus, .btn:focus, .group-span-filestyle{
+    outline: 0;
+}
+
+.card-container.card {
+    width: 350px;
+    
+}
+.btn {
+    height: 35px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+    border-radius: 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 7px 10px;
+	outline: 0;
+	border: transparent;
+}
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+.profile-name-card {
+	color:white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    color: white;
+    line-height: 2;
+    margin: 10px 0px 10px 0px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-control{
+	direction: ltr;
+	height: 35px;
+	font-size: 16px;
+	border-radius: 0px;	
+}
+
+.form-signin #inputEmail, .form-signin #inputName, .form-signin #inputSurname, .form-signin #inputPass, .form-signin #inputNewPass1, .form-signin #inputAnswer, .form-signin #inputNewPass2,
+.form-signin #inputTitle,
+.form-signin #inputPass1,
+.form-signin #inputPass2,
+.form-signin #inputPass3
+{
+    direction: ltr;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin: 10px 0px 10px 0px;
+    z-index: 1;
+    position: relative;
+}
+
+.form-signin .form-control:focus {
+    border-color: #444444;
+    outline: 0;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075),0 0 0px rgb(56, 138, 91);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075),0 0 0px rgb(104, 145, 162);
+}
+
+.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: #0e89af;
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    border-radius: 0px;
+}
+
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+    background-color: #ADADAD;
+	color: #E6E6E6;
+    padding: 0px;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    border-radius: 0px;
+}
+
+.btn-delete {
+    /*background-color: #4d90fe; */
+    background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+    padding: 0px;
+    font-family: Calibri, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    border-radius: 0px;
+}
+
+.btn-signin:hover,
+.btn-signin:active,
+.btn-signin:focus {
+    background-color: #444444;
+    font-family: Calibri, Arial, sans-serif;
+    border-radius: 0px;
+}
+.btn-add {
+    /*background-color: #4d90fe; */
+    background-color: #ADADAD;
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-family: Calibri, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 0px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    border-radius: 0px;
+}
+
+.btn-add:hover,
+.btn-add:active,
+.btn-add:focus {
+    background-color: #E6E6E6;
+    font-family: Calibri, Arial, sans-serif;
+    border-radius: 0px;
+	color: #ADADAD;
+}
+
+
+
+
